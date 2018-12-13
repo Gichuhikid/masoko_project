@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+My Cart,Firefox 63.0,,2018-12-13 16:23:48,2018-12-13 16:25:33,1m - 44.584s,FAILED
+,,,,,,
+Test Cases/My Cart/Verify_Add And CheckOut Product,Firefox 63.0,,2018-12-13 16:23:48,2018-12-13 16:24:57,1m - 8.856s,FAILED
+"callTestCase(findTestCase(""My Cart/Verify-Add Product to cart""), [:], STOP_ON_FAILURE)",Firefox 63.0,,2018-12-13 16:23:49,2018-12-13 16:24:57,1m - 8.596s,FAILED
+,,,,,,
+Test Cases/My Cart/Verify-Only logged in user can Checkout,Firefox 63.0,,2018-12-13 16:24:57,2018-12-13 16:25:30,32.458s,FAILED
+openBrowser(baseURL),Firefox 63.0,,2018-12-13 16:24:57,2018-12-13 16:25:15,17.346s,PASSED
+maximizeWindow(),Firefox 63.0,,2018-12-13 16:25:15,2018-12-13 16:25:18,3.520s,PASSED
+delay(3),Firefox 63.0,,2018-12-13 16:25:18,2018-12-13 16:25:21,3.003s,PASSED
+"scrollToPosition(0, 400)",Firefox 63.0,,2018-12-13 16:25:21,2018-12-13 16:25:21,0.027s,PASSED
+delay(2),Firefox 63.0,,2018-12-13 16:25:21,2018-12-13 16:25:23,2.004s,PASSED
+"click(findTestObject(""My Cart/Button- Add To Cart""))",Firefox 63.0,,2018-12-13 16:25:23,2018-12-13 16:25:26,3.108s,PASSED
+delay(3),Firefox 63.0,,2018-12-13 16:25:26,2018-12-13 16:25:29,3.005s,PASSED
+"click(findTestObject(""My Cart/Link- My Cart""))",Firefox 63.0,,2018-12-13 16:25:29,2018-12-13 16:25:30,0.158s,FAILED

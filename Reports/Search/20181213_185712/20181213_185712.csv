@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Search,Chrome 70.0.3538.110,,2018-12-13 18:57:15,2018-12-13 18:58:32,1m - 17.227s,PASSED
+,,,,,,
+Test Cases/Search Functionality/Search For Product,Chrome 70.0.3538.110,,2018-12-13 18:57:16,2018-12-13 18:58:31,1m - 15.725s,PASSED
+"data = findTestData(""Search"")",Chrome 70.0.3538.110,,2018-12-13 18:57:17,2018-12-13 18:57:17,0.031s,PASSED
+log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 70.0.3538.110,,2018-12-13 18:57:17,2018-12-13 18:57:17,0.002s,PASSED
+openBrowser(baseURL),Chrome 70.0.3538.110,,2018-12-13 18:57:17,2018-12-13 18:57:35,17.999s,PASSED
+maximizeWindow(),Chrome 70.0.3538.110,,2018-12-13 18:57:35,2018-12-13 18:57:36,1.169s,PASSED
+delay(2),Chrome 70.0.3538.110,,2018-12-13 18:57:36,2018-12-13 18:57:38,2.038s,PASSED
+for (def index : (0..(data.getRowNumbers() - 1))),Chrome 70.0.3538.110,,2018-12-13 18:57:38,2018-12-13 18:58:31,52.873s,PASSED

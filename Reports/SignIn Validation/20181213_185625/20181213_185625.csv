@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+SignIn Validation,Firefox 63.0,,2018-12-13 18:56:28,2018-12-13 18:56:46,17.617s,FAILED
+,,,,,,
+Test Cases/SignIn/Verify-All Input fields Are Mandatroy,Firefox 63.0,,2018-12-13 18:56:29,2018-12-13 18:56:45,16.146s,FAILED
+"data = findTestData(""SigninValidations"")",Firefox 63.0,,2018-12-13 18:56:30,2018-12-13 18:56:33,2.591s,PASSED
+"openBrowser(findTestData(""SigninValidations"").getValue(1, 1))",Firefox 63.0,,2018-12-13 18:56:33,2018-12-13 18:56:44,11.093s,PASSED
+maximizeWindow(),Firefox 63.0,,2018-12-13 18:56:44,2018-12-13 18:56:45,1.369s,FAILED
+,,,,,,
+Test Cases/SignIn/Verify_Correct Email is Enter,Firefox 63.0,,2018-12-13 18:56:45,2018-12-13 18:56:45,0.259s,FAILED
+"data = findTestData(""SigninValidations"")",Firefox 63.0,,2018-12-13 18:56:45,2018-12-13 18:56:45,0.002s,NOT_RUN
+"openBrowser(findTestData(""SigninValidations"").getValue(1, 1))",Firefox 63.0,,2018-12-13 18:56:45,2018-12-13 18:56:45,0.002s,NOT_RUN
+maximizeWindow(),Firefox 63.0,,2018-12-13 18:56:45,2018-12-13 18:56:45,0.001s,NOT_RUN
+delay(3),Firefox 63.0,,2018-12-13 18:56:45,2018-12-13 18:56:45,0.001s,NOT_RUN
+"click(findTestObject(""Signin Page/Link- SignIn""))",Firefox 63.0,,2018-12-13 18:56:45,2018-12-13 18:56:45,0.050s,FAILED
+,,,,,,
+Test Cases/SignIn/Verify- Correct credentials,Firefox 63.0,,2018-12-13 18:56:45,2018-12-13 18:56:46,0.223s,FAILED
+"data = findTestData(""SigninValidations"")",Firefox 63.0,,2018-12-13 18:56:46,2018-12-13 18:56:46,0.002s,NOT_RUN
+"openBrowser(findTestData(""SigninValidations"").getValue(1, 1))",Firefox 63.0,,2018-12-13 18:56:46,2018-12-13 18:56:46,0.002s,NOT_RUN
+maximizeWindow(),Firefox 63.0,,2018-12-13 18:56:46,2018-12-13 18:56:46,0.001s,NOT_RUN
+delay(3),Firefox 63.0,,2018-12-13 18:56:46,2018-12-13 18:56:46,0.002s,NOT_RUN
+"click(findTestObject(""Signin Page/Link- SignIn""))",Firefox 63.0,,2018-12-13 18:56:46,2018-12-13 18:56:46,0.018s,FAILED
+,,,,,,
+Test Cases/SignIn/Verify- Correct Signin,Firefox 63.0,,2018-12-13 18:56:46,2018-12-13 18:56:46,0.309s,FAILED
+openBrowser(baseURL),Firefox 63.0,,2018-12-13 18:56:46,2018-12-13 18:56:46,0.073s,FAILED

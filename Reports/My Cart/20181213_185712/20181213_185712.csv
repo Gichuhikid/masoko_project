@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+My Cart,Chrome 70.0.3538.110,,2018-12-13 18:57:15,2018-12-13 18:58:56,1m - 40.371s,FAILED
+,,,,,,
+Test Cases/My Cart/Verify_Add And CheckOut Product,Chrome 70.0.3538.110,,2018-12-13 18:57:16,2018-12-13 18:58:33,1m - 16.361s,FAILED
+"callTestCase(findTestCase(""My Cart/Verify-Add Product to cart""), [:], STOP_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-13 18:57:17,2018-12-13 18:58:33,1m - 15.441s,FAILED
+,,,,,,
+Test Cases/My Cart/Verify-Only logged in user can Checkout,Chrome 70.0.3538.110,,2018-12-13 18:58:33,2018-12-13 18:58:55,22.204s,FAILED
+openBrowser(baseURL),Chrome 70.0.3538.110,,2018-12-13 18:58:33,2018-12-13 18:58:41,8.429s,PASSED
+maximizeWindow(),Chrome 70.0.3538.110,,2018-12-13 18:58:41,2018-12-13 18:58:42,1.137s,PASSED
+delay(3),Chrome 70.0.3538.110,,2018-12-13 18:58:42,2018-12-13 18:58:45,3.003s,PASSED
+"scrollToPosition(0, 400)",Chrome 70.0.3538.110,,2018-12-13 18:58:45,2018-12-13 18:58:45,0.046s,PASSED
+delay(2),Chrome 70.0.3538.110,,2018-12-13 18:58:45,2018-12-13 18:58:47,2.003s,PASSED
+"click(findTestObject(""My Cart/Button- Add To Cart""))",Chrome 70.0.3538.110,,2018-12-13 18:58:47,2018-12-13 18:58:51,3.711s,PASSED
+delay(3),Chrome 70.0.3538.110,,2018-12-13 18:58:51,2018-12-13 18:58:54,3.002s,PASSED
+"click(findTestObject(""My Cart/Link- My Cart""))",Chrome 70.0.3538.110,,2018-12-13 18:58:54,2018-12-13 18:58:55,0.595s,FAILED

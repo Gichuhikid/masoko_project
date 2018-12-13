@@ -1,0 +1,57 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+SignIn Validation,Chrome 70.0.3538.110,,2018-12-13 18:57:15,2018-12-13 18:59:34,2m - 18.952s,FAILED
+,,,,,,
+Test Cases/SignIn/Verify-All Input fields Are Mandatroy,Chrome 70.0.3538.110,,2018-12-13 18:57:15,2018-12-13 18:57:59,43.646s,PASSED
+"data = findTestData(""SigninValidations"")",Chrome 70.0.3538.110,,2018-12-13 18:57:17,2018-12-13 18:57:20,3.360s,PASSED
+"openBrowser(findTestData(""SigninValidations"").getValue(1, 1))",Chrome 70.0.3538.110,,2018-12-13 18:57:20,2018-12-13 18:57:35,14.446s,PASSED
+maximizeWindow(),Chrome 70.0.3538.110,,2018-12-13 18:57:35,2018-12-13 18:57:36,1.225s,PASSED
+delay(3),Chrome 70.0.3538.110,,2018-12-13 18:57:36,2018-12-13 18:57:39,3.054s,PASSED
+"click(findTestObject(""Signin Page/Link- SignIn""))",Chrome 70.0.3538.110,,2018-12-13 18:57:39,2018-12-13 18:57:43,4.316s,PASSED
+"setText(findTestObject(""Signin Page/Input-Email""), findTestData(""SigninValidations"").getValue(2, 3))",Chrome 70.0.3538.110,,2018-12-13 18:57:43,2018-12-13 18:57:44,1.145s,PASSED
+delay(2),Chrome 70.0.3538.110,,2018-12-13 18:57:44,2018-12-13 18:57:46,2.004s,PASSED
+"setText(findTestObject(""Signin Page/Input-Password""), findTestData(""SigninValidations"").getValue(3, 3))",Chrome 70.0.3538.110,,2018-12-13 18:57:46,2018-12-13 18:57:47,0.246s,PASSED
+delay(2),Chrome 70.0.3538.110,,2018-12-13 18:57:47,2018-12-13 18:57:49,2.003s,PASSED
+"click(findTestObject(""Signin Page/Button-Signin""))",Chrome 70.0.3538.110,,2018-12-13 18:57:49,2018-12-13 18:57:49,0.282s,PASSED
+delay(10),Chrome 70.0.3538.110,,2018-12-13 18:57:49,2018-12-13 18:57:59,10.006s,PASSED
+"verifyElementPresent(findTestObject(""Signin Page/Error Message-Email""), 0)",Chrome 70.0.3538.110,,2018-12-13 18:57:59,2018-12-13 18:57:59,0.092s,PASSED
+"verifyElementPresent(findTestObject(""Signin Page/Error Message-Password Required""), 0)",Chrome 70.0.3538.110,,2018-12-13 18:57:59,2018-12-13 18:57:59,0.040s,PASSED
+,,,,,,
+Test Cases/SignIn/Verify_Correct Email is Enter,Chrome 70.0.3538.110,,2018-12-13 18:57:59,2018-12-13 18:58:19,20.029s,PASSED
+"data = findTestData(""SigninValidations"")",Chrome 70.0.3538.110,,2018-12-13 18:57:59,2018-12-13 18:57:59,0.003s,NOT_RUN
+"openBrowser(findTestData(""SigninValidations"").getValue(1, 1))",Chrome 70.0.3538.110,,2018-12-13 18:57:59,2018-12-13 18:57:59,0.003s,NOT_RUN
+maximizeWindow(),Chrome 70.0.3538.110,,2018-12-13 18:57:59,2018-12-13 18:57:59,0.002s,NOT_RUN
+delay(3),Chrome 70.0.3538.110,,2018-12-13 18:57:59,2018-12-13 18:57:59,0.002s,NOT_RUN
+"click(findTestObject(""Signin Page/Link- SignIn""))",Chrome 70.0.3538.110,,2018-12-13 18:57:59,2018-12-13 18:58:04,5.004s,PASSED
+"setText(findTestObject(""Signin Page/Input-Email""), findTestData(""SigninValidations"").getValue(2, 1))",Chrome 70.0.3538.110,,2018-12-13 18:58:04,2018-12-13 18:58:05,0.241s,PASSED
+delay(2),Chrome 70.0.3538.110,,2018-12-13 18:58:05,2018-12-13 18:58:07,2.004s,PASSED
+"setText(findTestObject(""Signin Page/Input-Password""), findTestData(""SigninValidations"").getValue(3, 1))",Chrome 70.0.3538.110,,2018-12-13 18:58:07,2018-12-13 18:58:07,0.213s,PASSED
+delay(2),Chrome 70.0.3538.110,,2018-12-13 18:58:07,2018-12-13 18:58:09,2.004s,PASSED
+"click(findTestObject(""Signin Page/Button-Signin""))",Chrome 70.0.3538.110,,2018-12-13 18:58:09,2018-12-13 18:58:09,0.227s,PASSED
+delay(10),Chrome 70.0.3538.110,,2018-12-13 18:58:09,2018-12-13 18:58:19,10.004s,PASSED
+"verifyElementPresent(findTestObject(""Signin Page/Error Message-Email""), 0)",Chrome 70.0.3538.110,,2018-12-13 18:58:19,2018-12-13 18:58:19,0.058s,PASSED
+,,,,,,
+Test Cases/SignIn/Verify- Correct credentials,Chrome 70.0.3538.110,,2018-12-13 18:58:19,2018-12-13 18:58:42,22.908s,PASSED
+"data = findTestData(""SigninValidations"")",Chrome 70.0.3538.110,,2018-12-13 18:58:19,2018-12-13 18:58:19,0.001s,NOT_RUN
+"openBrowser(findTestData(""SigninValidations"").getValue(1, 1))",Chrome 70.0.3538.110,,2018-12-13 18:58:19,2018-12-13 18:58:19,0.002s,NOT_RUN
+maximizeWindow(),Chrome 70.0.3538.110,,2018-12-13 18:58:19,2018-12-13 18:58:19,0.001s,NOT_RUN
+delay(3),Chrome 70.0.3538.110,,2018-12-13 18:58:19,2018-12-13 18:58:19,0.001s,NOT_RUN
+"click(findTestObject(""Signin Page/Link- SignIn""))",Chrome 70.0.3538.110,,2018-12-13 18:58:19,2018-12-13 18:58:25,5.630s,PASSED
+"setText(findTestObject(""Signin Page/Input-Email""), findTestData(""SigninValidations"").getValue(2, 5))",Chrome 70.0.3538.110,,2018-12-13 18:58:25,2018-12-13 18:58:27,1.749s,PASSED
+delay(2),Chrome 70.0.3538.110,,2018-12-13 18:58:27,2018-12-13 18:58:29,2.003s,PASSED
+"setText(findTestObject(""Signin Page/Input-Password""), findTestData(""SigninValidations"").getValue(3, 5))",Chrome 70.0.3538.110,,2018-12-13 18:58:29,2018-12-13 18:58:29,0.399s,PASSED
+delay(2),Chrome 70.0.3538.110,,2018-12-13 18:58:29,2018-12-13 18:58:31,2.003s,PASSED
+"click(findTestObject(""Signin Page/Button-Signin""))",Chrome 70.0.3538.110,,2018-12-13 18:58:31,2018-12-13 18:58:37,5.639s,PASSED
+delay(5),Chrome 70.0.3538.110,,2018-12-13 18:58:37,2018-12-13 18:58:42,5.004s,PASSED
+"verifyElementPresent(findTestObject(""Signin Page/Error Message- Invalid passwrd and email""), 0)",Chrome 70.0.3538.110,,2018-12-13 18:58:42,2018-12-13 18:58:42,0.143s,PASSED
+,,,,,,
+Test Cases/SignIn/Verify- Correct Signin,Chrome 70.0.3538.110,,2018-12-13 18:58:42,2018-12-13 18:59:33,50.962s,FAILED
+openBrowser(baseURL),Chrome 70.0.3538.110,,2018-12-13 18:58:42,2018-12-13 18:58:53,10.445s,PASSED
+maximizeWindow(),Chrome 70.0.3538.110,,2018-12-13 18:58:53,2018-12-13 18:58:54,1.133s,PASSED
+"click(findTestObject(""Signin Page/Link- SignIn""))",Chrome 70.0.3538.110,,2018-12-13 18:58:54,2018-12-13 18:58:58,4.387s,PASSED
+delay(3),Chrome 70.0.3538.110,,2018-12-13 18:58:58,2018-12-13 18:59:01,3.003s,PASSED
+"sendKeys(findTestObject(""Signin Page/Input-Email""), findTestData(""Datasource"").getValue(4, 1))",Chrome 70.0.3538.110,,2018-12-13 18:59:01,2018-12-13 18:59:02,0.325s,PASSED
+delay(3),Chrome 70.0.3538.110,,2018-12-13 18:59:02,2018-12-13 18:59:05,3.003s,PASSED
+"setEncryptedText(findTestObject(""Signin Page/Input-Password""), ""dg5xLn3Kdje4IG74Nn0kqg=="")",Chrome 70.0.3538.110,,2018-12-13 18:59:05,2018-12-13 18:59:05,0.326s,PASSED
+delay(3),Chrome 70.0.3538.110,,2018-12-13 18:59:05,2018-12-13 18:59:08,3.003s,PASSED
+"click(findTestObject(""Signin Page/Button-Signin""))",Chrome 70.0.3538.110,,2018-12-13 18:59:08,2018-12-13 18:59:24,15.597s,PASSED
+"callTestCase(findTestCase(""SignIn/Logout""), [:], STOP_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-13 18:59:24,2018-12-13 18:59:33,9.475s,FAILED

@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+My Cart,Chrome 70.0.3538.110,,2018-12-13 18:56:29,2018-12-13 18:56:43,14.329s,FAILED
+,,,,,,
+Test Cases/My Cart/Verify_Add And CheckOut Product,Chrome 70.0.3538.110,,2018-12-13 18:56:29,2018-12-13 18:56:38,8.937s,FAILED
+"callTestCase(findTestCase(""My Cart/Verify-Add Product to cart""), [:], STOP_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-13 18:56:31,2018-12-13 18:56:38,7.790s,FAILED
+,,,,,,
+Test Cases/My Cart/Verify-Only logged in user can Checkout,Chrome 70.0.3538.110,,2018-12-13 18:56:38,2018-12-13 18:56:42,3.654s,FAILED
+openBrowser(baseURL),Chrome 70.0.3538.110,,2018-12-13 18:56:39,2018-12-13 18:56:42,3.261s,FAILED

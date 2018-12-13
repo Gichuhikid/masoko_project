@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Search" time="77" tests="1" failures="0" errors="0">
+   <testsuite name="Search" tests="1" failures="0" errors="0" time="77" timestamp="2018-12-13 18:57:15" hostname="user - CLLSDMONGLT071" id="Test Suites/Search">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\user\\Documents\\Masoko-master\\Reports\\Search\\20181213_185712"/>
+         <property name="logFiles" value="C:\\Users\\user\\Documents\\Masoko-master\\Reports\\Search\\20181213_185712\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="user - CLLSDMONGLT071"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.9.1.2"/>
+         <property name="browser" value="Chrome 70.0.3538.110"/>
+         <property name="hostAddress" value="10.5.82.232"/>
+         <property name="sessionId" value="723425113c91982bb26ff6d9f042413e"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Search Functionality/Search For Product" classname="Test Cases/Search Functionality/Search For Product" status="PASSED">
+         <system-out><![CDATA[2018-12-13 18:57:16 - [TEST_CASE][PASSED] - Test Cases/Search Functionality/Search For Product: Test Cases/Search Functionality/Search For Product
+
+2018-12-13 18:57:17 - [TEST_STEP][PASSED] - data = findTestData("Search"): null
+
+2018-12-13 18:57:17 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2018-12-13 18:57:17 - [TEST_STEP][PASSED] - openBrowser(baseURL): Browser is opened with url: 'https://www.masoko.com/'
+
+2018-12-13 18:57:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-13 18:57:18 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2018-12-13 18:57:35 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.masoko.com/'
+
+2018-12-13 18:57:35 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2018-12-13 18:57:36 - [MESSAGE][PASSED] - Current window maximized
+
+2018-12-13 18:57:36 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2018-12-13 18:57:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-12-13 18:57:38 - [TEST_STEP][PASSED] - for (def index : (0..(data.getRowNumbers() - 1))): Search Result Matches Input
+
+2018-12-13 18:57:39 - [TEST_STEP][PASSED] - click(findTestObject("Search Product/Dropdown- Category")): Object: 'Object Repository/Search Product/Dropdown- Category' is clicked on
+
+2018-12-13 18:57:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Product/Dropdown- Category' is clicked on
+
+2018-12-13 18:57:39 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2018-12-13 18:57:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-12-13 18:57:41 - [TEST_STEP][PASSED] - click(findTestObject("Search Product/Select- Category_VAR", ["Category":data.internallyGetValue("Category", index)])): Object: 'Object Repository/Search Product/Select- Category_VAR' is clicked on
+
+2018-12-13 18:57:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Product/Select- Category_VAR' is clicked on
+
+2018-12-13 18:57:41 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-13 18:57:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-13 18:57:42 - [TEST_STEP][PASSED] - setText(findTestObject("Search Product/Search Box"), data.internallyGetValue("SearchInput", index)): Text 'HISENSE' is set on object 'Object Repository/Search Product/Search Box'
+
+2018-12-13 18:57:42 - [MESSAGE][PASSED] - Text 'HISENSE' is set on object 'Object Repository/Search Product/Search Box'
+
+2018-12-13 18:57:42 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-13 18:57:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-13 18:57:43 - [TEST_STEP][PASSED] - click(findTestObject("Search Product/Search Button")): Object: 'Object Repository/Search Product/Search Button' is clicked on
+
+2018-12-13 18:57:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Product/Search Button' is clicked on
+
+2018-12-13 18:57:58 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2018-12-13 18:58:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-12-13 18:58:00 - [TEST_STEP][PASSED] - Results_After_Search = getText(findTestObject("Search Product/Grid- Returned Items")): Text of object 'Object Repository/Search Product/Grid- Returned Items' is: '43'' HISENSE SMART UHD 4K LED TELEVISION'
+
+2018-12-13 18:58:00 - [MESSAGE][PASSED] - Text of object 'Object Repository/Search Product/Grid- Returned Items' is: '43'' HISENSE SMART UHD 4K LED TELEVISION'
+
+2018-12-13 18:58:00 - [TEST_STEP][PASSED] - if (Results_After_Search.contains(data.internallyGetValue("SearchInput", index))): Search Result Matches Input
+
+2018-12-13 18:58:00 - [TEST_STEP][PASSED] - markPassed("Search Result Matches Input"): Search Result Matches Input
+
+2018-12-13 18:58:00 - [MESSAGE][PASSED] - Search Result Matches Input
+
+2018-12-13 18:58:00 - [TEST_STEP][PASSED] - click(findTestObject("Search Product/Dropdown- Category")): Object: 'Object Repository/Search Product/Dropdown- Category' is clicked on
+
+2018-12-13 18:58:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Product/Dropdown- Category' is clicked on
+
+2018-12-13 18:58:00 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2018-12-13 18:58:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-12-13 18:58:02 - [TEST_STEP][PASSED] - click(findTestObject("Search Product/Select- Category_VAR", ["Category":data.internallyGetValue("Category", index)])): Object: 'Object Repository/Search Product/Select- Category_VAR' is clicked on
+
+2018-12-13 18:58:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Product/Select- Category_VAR' is clicked on
+
+2018-12-13 18:58:02 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-13 18:58:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-13 18:58:03 - [TEST_STEP][PASSED] - setText(findTestObject("Search Product/Search Box"), data.internallyGetValue("SearchInput", index)): Text 'HUAWEI' is set on object 'Object Repository/Search Product/Search Box'
+
+2018-12-13 18:58:04 - [MESSAGE][PASSED] - Text 'HUAWEI' is set on object 'Object Repository/Search Product/Search Box'
+
+2018-12-13 18:58:04 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-13 18:58:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-13 18:58:05 - [TEST_STEP][PASSED] - click(findTestObject("Search Product/Search Button")): Object: 'Object Repository/Search Product/Search Button' is clicked on
+
+2018-12-13 18:58:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Product/Search Button' is clicked on
+
+2018-12-13 18:58:15 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2018-12-13 18:58:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-12-13 18:58:17 - [TEST_STEP][PASSED] - Results_After_Search = getText(findTestObject("Search Product/Grid- Returned Items")): Text of object 'Object Repository/Search Product/Grid- Returned Items' is: 'HUAWEI Y3II'
+
+2018-12-13 18:58:17 - [MESSAGE][PASSED] - Text of object 'Object Repository/Search Product/Grid- Returned Items' is: 'HUAWEI Y3II'
+
+2018-12-13 18:58:17 - [TEST_STEP][PASSED] - if (Results_After_Search.contains(data.internallyGetValue("SearchInput", index))): Search Result Matches Input
+
+2018-12-13 18:58:17 - [TEST_STEP][PASSED] - markPassed("Search Result Matches Input"): Search Result Matches Input
+
+2018-12-13 18:58:17 - [MESSAGE][PASSED] - Search Result Matches Input
+
+2018-12-13 18:58:17 - [TEST_STEP][PASSED] - click(findTestObject("Search Product/Dropdown- Category")): Object: 'Object Repository/Search Product/Dropdown- Category' is clicked on
+
+2018-12-13 18:58:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Product/Dropdown- Category' is clicked on
+
+2018-12-13 18:58:17 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2018-12-13 18:58:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-12-13 18:58:19 - [TEST_STEP][PASSED] - click(findTestObject("Search Product/Select- Category_VAR", ["Category":data.internallyGetValue("Category", index)])): Object: 'Object Repository/Search Product/Select- Category_VAR' is clicked on
+
+2018-12-13 18:58:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Product/Select- Category_VAR' is clicked on
+
+2018-12-13 18:58:19 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-13 18:58:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-13 18:58:20 - [TEST_STEP][PASSED] - setText(findTestObject("Search Product/Search Box"), data.internallyGetValue("SearchInput", index)): Text 'DELL' is set on object 'Object Repository/Search Product/Search Box'
+
+2018-12-13 18:58:21 - [MESSAGE][PASSED] - Text 'DELL' is set on object 'Object Repository/Search Product/Search Box'
+
+2018-12-13 18:58:21 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-13 18:58:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-13 18:58:22 - [TEST_STEP][PASSED] - click(findTestObject("Search Product/Search Button")): Object: 'Object Repository/Search Product/Search Button' is clicked on
+
+2018-12-13 18:58:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Product/Search Button' is clicked on
+
+2018-12-13 18:58:29 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2018-12-13 18:58:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-12-13 18:58:31 - [TEST_STEP][PASSED] - Results_After_Search = getText(findTestObject("Search Product/Grid- Returned Items")): Text of object 'Object Repository/Search Product/Grid- Returned Items' is: 'DELL WIRELESS MOUSE - BLACK'
+
+2018-12-13 18:58:31 - [MESSAGE][PASSED] - Text of object 'Object Repository/Search Product/Grid- Returned Items' is: 'DELL WIRELESS MOUSE - BLACK'
+
+2018-12-13 18:58:31 - [TEST_STEP][PASSED] - if (Results_After_Search.contains(data.internallyGetValue("SearchInput", index))): Search Result Matches Input
+
+2018-12-13 18:58:31 - [TEST_STEP][PASSED] - markPassed("Search Result Matches Input"): Search Result Matches Input
+
+2018-12-13 18:58:31 - [MESSAGE][PASSED] - Search Result Matches Input]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-13 18:57:15 - [TEST_SUITE][PASSED] - Search: Test Cases/Search Functionality/Search For Product]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
